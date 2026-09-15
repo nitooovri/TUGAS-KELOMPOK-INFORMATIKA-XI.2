@@ -54,19 +54,19 @@ int main () {
             cout << "\n--- ARRAY 1 DIMENSI ---\n";
 
             for (int i = 0 ; i < 5; i++){
-                cout<< "Nama siswa ke-" << i+1
-                    << " : " << nama[i] << endl;
+                cout << "Nama siswa ke-" << i+1
+                     << " : " << nama[i] << endl;
             }
         }
         else if (pilihan == 2){
             cout << "\n--- array 2 dimensi ---\n";
              
             cout << left
-                <<setw(10) <<"nama"
-                <<setw(15) <<"informatika"
-                <<setw(15) << "matematika"
-                <<setw(10) << "b. indonesia"
-                <<endl;
+                 <<setw(10) <<"nama"
+                 <<setw(15) <<"informatika"
+                 <<setw(15) << "matematika"
+                 <<setw(10) << "b. indonesia"
+                 <<endl;
            
             cout << "===========================================\n";
 
@@ -91,11 +91,11 @@ int main () {
                 jumlah += nilai[i][j];
             }   
             float rata = (float)jumlah / 3;
-                cout<< nama[i]
-                    << "-> Jumlah = "<< jumlah
-                    << ", Rata-rata = "
-                    << fixed << setprecision(2)
-                    << rata << endl;
+                cout << nama[i]
+                     << "-> Jumlah = "<< jumlah
+                     << ", Rata-rata = "
+                     << fixed << setprecision(2)
+                     << rata << endl;
             }
         }
         else if (pilihan==4){
