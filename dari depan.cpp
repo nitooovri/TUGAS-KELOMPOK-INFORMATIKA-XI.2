@@ -37,16 +37,16 @@ int main () {
     };
     int pilihan;
     do{
-        cout << "\n==========================\n";
+        cout << "\n==================================\n";
         cout << "   PROGRAM DATA NILAI SISWA\n";
-        cout << "==========================";
+        cout << "==================================\n";
         cout << "1. tampilkan array 1 dimensi\n";
         cout << "2. tampilkan array 2 dimensi\n";
         cout << "3. hitung rata rata siswa\n";
         cout << "4. tampilkan array 3 dimensi\n";
         cout << "5. hitung rata rata setiap kelas\n";
         cout << "6. keluar\n";
-        cout << "==========================";
+        cout << "==================================\n";
         cout << "pilih menu : ";
         cin >> pilihan;
 
@@ -68,7 +68,7 @@ int main () {
                 <<setw(10) << "b. indonesia"
                 <<endl;
            
-            cout << "==========================================\n";
+            cout << "===========================================\n";
 
             for (int i = 0; i < 5; i++) {
               
@@ -92,8 +92,8 @@ int main () {
             }   
             float rata = (float)jumlah / 3;
                 cout<< nama[i]
-                    << "-> Jumlah ="<< jumlah
-                    << ", Rata-rata ="
+                    << "-> Jumlah = "<< jumlah
+                    << ", Rata-rata = "
                     << fixed << setprecision(2)
                     << rata << endl;
             }
@@ -132,7 +132,7 @@ int main () {
             }
         }
         else if (pilihan==6){
-            cout << "\nPilihan tidak tersedia.\n";
+            cout << "\nProgram selesai.\n";
         }
         else {
             cout << "pilihan tidak tersedia\n";
